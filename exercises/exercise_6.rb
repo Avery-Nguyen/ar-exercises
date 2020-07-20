@@ -10,9 +10,9 @@ puts "----------"
 
 # Your code goes here ...
 @store1.employees.create(first_name: "Khurram", last_name: "Virani", hourly_rate: 60)
-@store1.employees.create(first_name: "Steve", last_name: "Jobs", hourly_rate: 30)
+@store1.employees.create(first_name: "Steve", last_name: "Jobs", hourly_rate: 40)
 @store1.employees.create(first_name: "Bill", last_name: "Murry", hourly_rate: 80)
 
 @store2.employees.create(first_name: "Avery", last_name: "Nguyen", hourly_rate: 90)
-@store2.employees.create(first_name: "Bill", last_name: "Gates", hourly_rate: 20)
-@store2.employees.create(first_name: "Freddy", last_name: "Mercury", hourly_rate: 5)
+@store2.employees.create(first_name: "Bill", last_name: "Gates", hourly_rate: 50)
+@store2.employees.create(first_name: "Freddy", last_name: "Mercury", hourly_rate: 100)

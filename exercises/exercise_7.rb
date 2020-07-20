@@ -10,3 +10,7 @@ puts "Exercise 7"
 puts "----------"
 
 # Your code goes here ...
+@test = Store.create(name: "Burnaby")
+
+puts @test.valid?
+puts @test.errors.full_messages
